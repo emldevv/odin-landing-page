@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* General styles */
+
+/* Buttons styles */
+
+/* General typography */
+
+/* Major sections */
+
+/* Header */
+#header {
+    display: flex;
+
+    background-color: white;
+}
+
+/* Hero */
+#hero {
+    display: flex;
+
+    background-color: #1f2937;
+}
+
+/* Work */
+#work {
+    background-color: white;
+}
+
+#work .work-items {
+    display: flex;
+}
+
+/* Quote */
+
+/* Action */
+#action {
+    background-color: white;
+}
+
+#action #action-container {
+    display: flex;
+
+    background-color: #3882f6;
+}
+
+#action #action-container .text {
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #1f2937;
+}
