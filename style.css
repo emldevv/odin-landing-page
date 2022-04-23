@@ -1,15 +1,21 @@
+/* Quick paste tools
+* { border: 1px solid red}
+
+
+*/
+
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
 
+/* * { border: 1px solid red} */
+
 /* General styles */
 .container {
-    display: flex;
-    flex-direction: column;
     padding: 0% 10%;
-
 }
 
 /* Buttons styles */
@@ -40,7 +46,11 @@ header {
 }
 
 #navbar #logo {
-    width: 100px;
+    display: flex;
+    align-items: center;
+}
+#navbar #logo img {
+    width: 80px;
 }
 
 #nav-links {
@@ -51,7 +61,7 @@ header {
 }
 
 #navbar ul li {
-    margin-left: 20px;
+    margin-left: 18px;
  }
 
 li a{
@@ -66,17 +76,26 @@ li a{
     background-color: #1f2937;
 }
 
+
 #hero #container-left h1{
+    margin: 0;
+
     color: #f9faf8;
     font-size: 48px;
     font-weight: extra-bold;
 }
 
 #hero #container-left p{
+    padding-right: 10%;
+    margin: 0;
+
     color:#e5e7eb;
     font-size: 18px;
 }
 
+#container-right img {
+    width: 350px;
+}
 /* Work */
 #work {
     background-color: white;
@@ -85,10 +104,15 @@ li a{
 
 #work .work-items {
     display: flex;
+
+    color: black;
 }
 
-#work .work-items {
-    color: black;
+#work .work-item-box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 10%;
 }
 
 /* Quote */
