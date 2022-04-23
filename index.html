@@ -1,3 +1,8 @@
+<!-- Quick Copy Tools
+border: 2px solid red;
+
+
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,20 +18,28 @@
 </head>
 
 <body>
-    <!-- header -->
-    <header id="header">
-        <div id="logo">
-            <img src="images/logocrop.png" alt="">
-        </div>
-        <div class="header-links">
-            <div class="welcome-link">Welcome</div>
-            <div class="work-link">Work</div>
-            <div class="action-link">Action</div>
-        </div>
+    <!-- navbar -->
+    <header>
+        <navbar id="navbar">
+            <div id="logo" class="navbar-item">
+                <img src="images/logocrop.png" alt="">
+            </div>
+            <ul id="nav-links" class="navbar-item">
+                <li class="nav-item">
+                    <a href="#welcome-section" class="nav-link">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#work" class="nav-link">Quote</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Action</a>
+                </li>
+            </ul>   
+        </navbar>
     </header>
 
     <!-- hero -->
-    <section id="hero">
+    <section id="hero" class="container">
         <div id="container-left">
             <h1>Clay's Brays</h1>
             <p>Like a politician or a teacher who can't answer your question, this website is dedicated to producing smooth sounding sentences that mean nothing and address no one in particular.
@@ -39,44 +52,43 @@
     </section>
 
     <!-- work -->
-    <section id="work">
+    <section id="work" class="container">
         <h2>Some random information.</h2>
         <div class="work-items">
             <!-- item 01 -->
             <div class="work-item">
-                <img id="work-item-img-01" src="images/work-item-01.jpg" alt="">
+                <!-- <img id="work-item-img-01" src="images/work-item-01.jpg" alt=""> -->
                 <p>Is your work unreliable? Unsure of the results of your efforts? Become a meteorologist TODAY!</p>
             </div>
 
             <!-- item 02 -->
             <div class="work-item">
-                <img id="work-item-img-02" src="images/work-item-02.jpg" alt="">
+                <!-- <img id="work-item-img-02" src="images/work-item-02.jpg" alt=""> -->
                 <p>Who needs sleep when you can have Not Sleep! Inquire about our Not Sleep program...or just have kids.</p>
             </div>
 
             <!-- item 03 -->
             <div class="work-item">
-                <img id="work-item-img-03" src="images/work-item-03.jpg" alt="">
+                <!-- <img id="work-item-img-03" src="images/work-item-03.jpg" alt=""> -->
                 <p>When I grow up I want to be semiconductor!</p>
             </div>
 
             <!-- item 04 -->
             <div class="work-item">
-                <img id="work-item-img-04" src="images/work-item-04.jpg" alt="">
+                <!-- <img id="work-item-img-04" src="images/work-item-04.jpg" alt=""> -->
                 <p>We aren't sure what a "Bray" actually is, and at this stage we aren't willing to divert resources to google it.</p>
             </div>
-
         </div>
     </section>
 
     <!-- quote -->
-    <section id="quote">
+    <section id="quote" class="container">
         <p id="quote-text">There's mushrooms, and then there's a front-loading washing machine riding a push bike.</p>
         <p id="quote-attribution">-Thor, God of Thunder</p>
     </section>
 
     <!-- call to action -->
-    <section id="action">
+    <section id="action" class="container">
         <div id="action-container">
             <div id="text">
                 <h3>Call to action! It's time...or is it?</h3>
@@ -87,9 +99,11 @@
     </section>
 
     <!-- footer -->
-    <footer id="footer">
+    <footer id="footer" class="container">
         <p>Copyright @ The Odin Project 2021</p>
     </footer>
     
 </body>
 </html>
+
+

@@ -5,6 +5,12 @@
 }
 
 /* General styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0% 10%;
+
+}
 
 /* Buttons styles */
 
@@ -13,15 +19,44 @@
 /* Major sections */
 
 /* Header */
-#header {
+header {
+    background-color: #1f2937;
+    
+}
+/* Navbar */
+#navbar {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     background-color: #1f2937;
+    height: 50px;
+    padding: 0% 10%;
 }
 
-.header-links {
+.navbar-item {
     color: e5e7eb;
     font-size: 18px;
+}
+
+#navbar #logo {
+    width: 100px;
+}
+
+#nav-links {
+    display: flex;
+}
+#navbar ul {
+    list-style-type: none;
+}
+
+#navbar ul li {
+    margin-left: 20px;
+ }
+
+li a{
+    text-decoration: none;
+    color: #e5e7eb;
 }
 
 /* Hero */
