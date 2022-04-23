@@ -16,7 +16,12 @@
 #header {
     display: flex;
 
-    background-color: white;
+    background-color: #1f2937;
+}
+
+.header-links {
+    color: e5e7eb;
+    font-size: 18px;
 }
 
 /* Hero */
@@ -26,16 +31,44 @@
     background-color: #1f2937;
 }
 
+#hero #container-left h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+#hero #container-left p{
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
 /* Work */
 #work {
     background-color: white;
+    color: #1f2937;
 }
 
 #work .work-items {
     display: flex;
 }
 
+#work .work-items {
+    color: black;
+}
+
 /* Quote */
+#quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-family: 'Merriweather', serif;
+}
+
+#quote #quote-attribution {
+    text-align: end;
+
+    font-weight: bolder;
+}
 
 /* Action */
 #action {
