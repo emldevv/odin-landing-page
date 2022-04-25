@@ -20,11 +20,23 @@
 
 
 /* Buttons styles */
+button {
+    border-radius: 5px;
+    width: 5rem;
+    height: 1.5rem;
+
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 0.7rem;
+    font-weight: bolder;
+}
 
 /* General typography */
 
 p, a {
-    font-size: 1rem;
+    font-size: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 10%;
 }
 
 /* Major sections */
@@ -48,6 +60,7 @@ header {
 .navbar-item a {
     color: #e5e7eb;
     font-size: 1rem;
+    font-weight: bolder;
 }
 
 #navbar #logo {
@@ -72,6 +85,7 @@ header {
 li a{
     text-decoration: none;
     color: #e5e7eb;
+    font-size: 0.75rem;
 }
 
 /* Hero */
@@ -83,21 +97,30 @@ li a{
     background-color: #1f2937;
 }
 
+#hero #container-left {
 
-#hero #container-left h1{
-    margin: 0;
-
-    color: #f9faf8;
-    font-size: 3rem;
-    font-weight: extra-bold;
+    /* border: 1px solid red */
 }
 
-#hero #container-left p{
+#container-left #hero-head{
+    padding: 0;
+    margin: 0rem 0rem 0.25rem 0rem;
+
+    color: #f9faf8;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 930;
+}
+
+#container-left #hero-text{
     padding-right: 10%;
     margin: 0;
 
     color:#e5e7eb;
-    font-size: 1rem;
+}
+
+#container-left button {
+    border: none;
 }
 
 #container-right img {
@@ -112,21 +135,36 @@ li a{
 
     background-color: white;
     color: #1f2937;
+    border: 1px solid red
 }
 
+#work #work-head {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 930;
+    border: 1px solid red
+}
 #work .work-items {
     display: flex;
 
-    color: black;
+    color: rgb(87, 86, 86);
+    border: 1px solid red
+}
+
+#work .work-item {
+    padding: 1.25rem;
 }
 
 #work .work-item-box {
     width: 120px;
     height: 120px;
-    border: 2px solid #3882f6;
+    border: 2.8px solid #3882f6;
     border-radius: 10%;
 }
 
+.work-item p {
+    width: 120px;
+}
 /* Quote */
 #quote {
     background-color: #e5e7eb;
@@ -155,15 +193,26 @@ li a{
 
 #action #action-container {
     display: flex;
+    align-items: center;
+    padding: 2em 4em;
 
     background-color: #3882f6;
+    color: #e5e7eb;
 }
 
 #action #action-container .text {
     display: flex;
     flex-direction: column;
+}
 
-    color: white;
+#action-container h3 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#action-container button {
+    border: 1px solid #f9faf8;
 }
 
 /* Footer */
