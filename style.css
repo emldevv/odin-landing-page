@@ -92,19 +92,19 @@ li a{
 #hero {
     display: flex;
     align-items: center;
+    padding-bottom: 2rem;
 
-    height: 35vh;
+    height: 30vh;
     background-color: #1f2937;
 }
 
 #hero #container-left {
-
-    /* border: 1px solid red */
+    height: 176px;
 }
 
 #container-left #hero-head{
     padding: 0;
-    margin: 0rem 0rem 0.25rem 0rem;
+    margin: 0rem 0rem 0.35rem 0rem;
 
     color: #f9faf8;
     font-size: 2.5rem;
@@ -114,41 +114,44 @@ li a{
 
 #container-left #hero-text{
     padding-right: 10%;
-    margin: 0;
+    margin: 0.35rem 0rem 0.35rem 0rem;
+    line-height: 1rem;
 
     color:#e5e7eb;
+    
 }
 
 #container-left button {
     border: none;
+    margin: 0.35rem 0rem 0.35rem 0rem;
 }
 
 #container-right img {
     width: 350px;
 }
+
 /* Work */
 #work {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 30vh;
+    height: 35vh;
 
     background-color: white;
     color: #1f2937;
-    border: 1px solid red
 }
 
 #work #work-head {
+    padding-top: 0.8rem;
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 930;
-    border: 1px solid red
 }
 #work .work-items {
     display: flex;
+    padding-bottom: 2rem;
 
     color: rgb(87, 86, 86);
-    border: 1px solid red
 }
 
 #work .work-item {
@@ -188,27 +191,43 @@ li a{
 
 /* Action */
 #action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
     background-color: white;
 }
 
 #action #action-container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    height: 90px;
+    width: 1000px;
+    border-radius: 5px;
     padding: 2em 4em;
 
     background-color: #3882f6;
-    color: #e5e7eb;
+    color: #f9faf8;
 }
 
-#action #action-container .text {
+#action #action-container #text {
     display: flex;
+    flex: 1;
     flex-direction: column;
+    justify-content: center;
 }
 
-#action-container h3 {
-    font-size: 2rem;
+#action-container #call {
+    padding: 1rem 0rem 0rem 0rem;
+    font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
+}
+
+#action-container #description {
+    padding: 0rem 0rem 1rem 0rem;
 }
 
 #action-container button {
